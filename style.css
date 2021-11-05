@@ -1,0 +1,88 @@
+.header {
+  position: relative;
+  background-image: url("img/headerback.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(244, 244, 244, 0.782);
+}
+
+.description {
+  position: absolute;
+  top: 10%;
+  margin: auto;
+}
+.description h1 {
+  color: #9c5f29;
+}
+.description p {
+  color: #9c5f29;
+  font-size: 20px;
+  width: 50%;
+  line-height: 1.5;
+}
+
+.btn {
+  background-color: #dd9000;
+  color: #e2edff;
+}
+
+#about {
+  padding-top: 6rem;
+  background-color: #e2edff;
+}
+
+.description {
+  padding-top: 6rem;
+}
+
+#portofolio {
+  background-color: #ffff;
+}
+
+#blog {
+  background-color: #e2edff;
+}
+
+#team {
+  position: relative;
+}
+
+#team .item {
+  position: relative;
+  overflow: hidden;
+}
+#team .des {
+  background: #dd9000;
+  color: #fff;
+  text-align: center;
+  border-top-right-radius: 93%;
+  transition: 0.3s ease-in-out;
+  position: absolute;
+  width: 92%;
+  bottom: 24px;
+}
+#team .item:hover .des {
+  height: 100%;
+  background: #dd90007e;
+  position: absolute;
+  width: 92%;
+  padding: 5em;
+  top: 0;
+  border-top-right-radius: 0;
+}
+
+#contact {
+  background-color: #e2edff;
+}
+
+section {
+  padding-top: 5rem;
+}
